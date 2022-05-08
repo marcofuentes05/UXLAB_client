@@ -1,0 +1,21 @@
+.title {
+    font-weight: bold;
+    margin: 50px 0 50px 50px;
+    font-size: 3em;
+}
+
+.wallets {
+    width: 50vw;
+}
+
+.pcs {
+    width: 50vw;
+}
+
+.wallets h2 {
+    margin: 0 50px;
+}
+
+.pcs h2 {
+    margin: 0 50px;
+}

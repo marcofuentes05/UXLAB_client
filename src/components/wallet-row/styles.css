@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.reserve-button {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    transition: 0.1s ease-in;
+}
+
+.reserve-button p {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.reserve-button:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.container p {
+    margin: 10px 0;
+}
+
+.address {
+    width: 350px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
